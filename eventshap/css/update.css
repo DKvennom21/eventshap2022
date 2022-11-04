@@ -1,0 +1,38 @@
+body{
+    background: darkblue;
+    text-align: center;
+}
+table {
+    
+    width:800px
+    
+}
+
+table,th,tr,td{
+    border:1px solid rgb(224, 24, 24);
+    border-collapse: collapse;
+}
+ th,tr,td{
+     padding:10px;
+     background-color:rgb(162, 222, 240)
+ }
+
+ h1{
+     size: 20px;
+     color: darkgrey;
+ }
+ 
+ table button{
+     width: 100px;
+     font-size: 14px;
+     font-family: sans-serif;
+     font-weight: 300;
+     border-radius: 3px;
+     border: none;
+     background-color: darkblue;
+     color: #fff;
+     cursor: pointer;
+     border: 1px solid rgb(224, 24, 24);
+     box-shadow: 1px 1px 5px rgba(black);
+     
+ }

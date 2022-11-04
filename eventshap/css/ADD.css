@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    /*padding:*/ 
+
+
+}
+body{
+    background: url("Managerpic2.jpeg");
+    background-size: 120%;
+    background-position: -60px 0px ;
+    align-items: center;
+}
+div.main{
+    width: 400px;
+    margin: 5px 250px 0px 260px;
+
+}
+h2{
+    text-align: center;
+    padding: 5px;
+    font-family: sans-serif;
+}
+div.ADD{
+    background-color: rgba(0,0,0,0.5);
+    width: 205%;
+    font-size: 18px;
+    border-radius: 50px;
+    border: 1px solid rgba(255,255,255,0.3);
+    box-shadow:2px 2px 15px
+    rgba(0,0,0,0.3);
+    color:#fff;
+
+}
+form#ADD{
+    margin:40px;
+    margin-bottom: 0;
+}
+label{
+    font-family: sans-serif;
+    font-size: 18px;
+    font-style: italic;
+}
+input#name{
+    width: 300px;
+    border:1px solid #ddd;
+    border-radius: 3px;
+    outline: 0;
+    padding: 7xp;
+    background-color: #fff;
+    box-shadow:inset 1px 1px 5px
+    rgba(0,0,0,0.3);
+
+
+}
+input#button{
+    width: 200px;
+    padding: 0xp;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 100;
+    border:none;
+    border-radius: 3px;
+    background-color: rgba(250,100,0,0.8);
+    color: #fff;
+    cursor: pointer;
+    border:1px solid
+    rgba(255,255,255,0.3);
+    box-shadow:1px 1px 5px
+    rgba(0,0,0,0.3);
+    margin-bottom: 10px;
+}
+label,span,h2{
+    text-shadow: 1px,1px,5px
+    rgba(0,0,0,0.3);
+}
+input.pin{
+    visibility: hidden;
+}
